@@ -1705,9 +1705,9 @@ body.sidebar-active>#ncf-overlay {
     height: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-out;
-    background-image: -webkit-linear-gradient(bottom, #fa9e3d 10%, rgba(250, 158, 61, 0));
-    background-image: -o-linear-gradient(bottom, #fa9e3d 10%, rgba(250, 158, 61, 0));
-    background-image: linear-gradient(to top, #fa9e3d 10%, rgba(250, 158, 61, 0));
+    background-image: -webkit-linear-gradient(bottom, #fa9f3d64 10%, rgba(250, 158, 61, 0));
+    background-image: -o-linear-gradient(bottom, #fa9f3d64 10%, rgba(250, 158, 61, 0));
+    background-image: linear-gradient(to top, #fa9f3d64 10%, rgba(250, 158, 61, 0));
 }
 
 .post:hover .entry-content:after{
