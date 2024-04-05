@@ -488,7 +488,7 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .sa-menu-style-1 .navbar:after {
-    background-color: var(--primary-color);
+    background-color: #272424;
     right: 0;
 }
 
@@ -528,6 +528,10 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(5) a {
+    background-color: var(--primary-color);
+}
+
+.sa-menu-style-1 .navbar-nav li:nth-child(6) a {
     background-color: var(--primary-color);
 }
 
@@ -632,7 +636,7 @@ body.sidebar-active>#ncf-overlay {
 .controls {
     float:inline-start;
     width: 120px;
-    height: 150px;
+    height: 20px;
     line-height: 20px;
     text-align: center;
     top: 30px;
