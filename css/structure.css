@@ -78,7 +78,8 @@ input:focus, textarea:focus, select:focus,
 
 .widget ul li {
 	width: 100%;
-	padding: 5px 0;
+	padding: 5px 8px;
+	cursor: pointer;
 }
 
 .widget ul li ul.sub-menu {
@@ -87,7 +88,7 @@ input:focus, textarea:focus, select:focus,
 
 .widget ul li:last-child {
 	border-bottom: 0;
-	padding-bottom: 0;
+	padding-bottom: 5px;
 }
 
 .widget ul li p {
@@ -98,6 +99,10 @@ input:focus, textarea:focus, select:focus,
 	float: right;
 	width: 100%;
 	text-align: right;
+}
+
+.widget.widget_categories li:hover {
+	background-color: #d9d9d9;
 }
 
 .widget.widget_categories li a {
