@@ -634,6 +634,8 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .controls {
+    opacity: 1;
+    visibility: visible;
     float:inline-start;
     width: 120px;
     height: 20px;
