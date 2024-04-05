@@ -223,7 +223,7 @@
 
 	.controls {
 		top: 25px;
-		right: 105px;
+		right: 115px;
 	}
 
 	.contact-content .social ul li a {
@@ -367,7 +367,7 @@
 @media (max-width: 575px) { 
 	.controls {
 		top: 20px;
-		right: 45px;
+		right: 70px;
 	}
 
 	.about-text .btn.btn-primary {
