@@ -634,36 +634,36 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .controls {
-    opacity: 1;
-    visibility: visible;
     float:inline-start;
-    width: 120px;
+    width: 100px;
     height: 20px;
     line-height: 20px;
     text-align: center;
-    top: 30px;
-    right: 10px;
+    top: 26px;
+    right: 35px;
     position: fixed;
     z-index: 9999999999999999;
 }
 
-.controls ul li {
-    list-style-type: none;
-    margin-right: 5px;
-}
-
-.controls ul li:hover {
-    border: 1px solid #fa9e3c;
-}
-
-.controls img {
-    width: 100%;
-}
-
-.controls-flag {
+.controls ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.controls ul li {
+    padding: 5px 8px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.controls ul li:hover {
+    color: #000;
+    background-color: #dadada42;
+}
+
+.controls ul li a {
+    color: #fff;
 }
 
 #sa-particles {
